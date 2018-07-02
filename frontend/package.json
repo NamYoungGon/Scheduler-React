@@ -1,0 +1,21 @@
+{
+  "name": "scheduler",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "holiday-kr": "^0.1.5",
+    "jquery": "^3.2.1",
+    "react": "^16.2.0",
+    "react-addons-update": "^15.6.2",
+    "react-color": "^2.13.8",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "validator": "^9.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
