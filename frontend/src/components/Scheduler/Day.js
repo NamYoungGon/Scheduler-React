@@ -2,7 +2,7 @@ import React from 'react';
 import { getDayInfo } from './../../lib/date';
 
 const eventHeight = 25
-const dayOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토']
 
 const Day = ({ date, event, dayidx }) => {
   const { year, month, day, pm, nm } = date;

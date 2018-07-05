@@ -1,89 +1,91 @@
-.f-r {
-    text-align: right;
+.t-r {
+  text-align: right;
 }
-.f-l {
-    text-align: left;
+
+.t-l {
+  text-align: left;
 }
-.f-c {
-    text-align: center;
+
+.t-c {
+  text-align: center;
 }
 
 .field-group {
-    clear: both;
-    position: relative;
-    width: 100%;
-    padding-left: 110px;
+  clear: both;
+  position: relative;
+  width: 100%;
+  padding-left: 110px;
 }
 
 .field-group::before {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 }
 
 .field-group::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .field-group input {
-    width: 100%;
+  width: 100%;
 }
 
 .field-group label {
-    color: #888585;
-    width: 110px;
-    margin-left: -110px;
-    padding-right:20px;
-    float: left;
-    position: relative;
+  color: #888585;
+  width: 110px;
+  margin-left: -110px;
+  padding-right: 20px;
+  float: left;
+  position: relative;
 }
 
 input[type=date] {
-    width: 160px;
+  width: 160px;
 }
 
-button + button, button + span, span + button {
-    margin-left: 5px;
+button+button,
+button+span,
+span+button {
+  margin-left: 5px;
 }
 
 select {
-    height: 30px;
-    padding: 0 4px;
+  height: 30px;
+  padding: 0 4px;
 }
 
 .b-lv-3 {
-    height: 20px;
-    padding: 0 6px;
+  height: 20px;
+  padding: 0 6px;
 }
 
 .b-lv-2 {
-    height: 28px;
-    padding: 0 6px;
+  height: 28px;
+  padding: 0 6px;
 }
 
-.f-lv-1 {
-    
-}
+.f-lv-1 {}
+
 .f-lv-2 {
-    font-weight: bold;
-    display: inline-block;
-    line-height: 28px;
-    vertical-align: middle;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 28px;
+  vertical-align: middle;
 }
+
 .f-lv-3 {
-    font-weight: bold;
-    display: inline-block;
-    line-height: 24px;
-    vertical-align: middle;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
 }
-.f-lv-4 {
 
-}
-.f-lv-5 {
+.f-lv-4 {}
 
-}
+.f-lv-5 {}
 
 .important {
-    background: red;
+  background: red;
 }
